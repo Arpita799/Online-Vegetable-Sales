@@ -2,7 +2,7 @@
 Welcome to Sabzi Mandi, your one-stop destination for farm-fresh vegetables delivered straight to your doorstep! 🌱
 
 # Description
-FreshBite is an innovative online vegetable sales web application designed to revolutionize the way you shop for your greens. With a sleek and user-friendly interface, you can browse through a wide selection of locally sourced, organic produce from the comfort of your home.
+Sabzi Mandi is an innovative online vegetable sales web application designed to revolutionize the way you shop for your greens. With a sleek and user-friendly interface, you can browse through a wide selection of locally sourced, organic produce from the comfort of your home.
 
 # Features
 * Interactive and user-friendly interface to make browsing easier.
