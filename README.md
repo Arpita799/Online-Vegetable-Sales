@@ -1,4 +1,4 @@
-# Sabzi Mandi: nline Vegetable Sales Web Application 🛒
+# Sabzi Mandi: Online Vegetable Sales Web Application 🛒
 Welcome to Sabzi Mandi, your one-stop destination for farm-fresh vegetables delivered straight to your doorstep! 🌱
 
 # Description
