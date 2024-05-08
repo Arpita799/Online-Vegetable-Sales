@@ -35,5 +35,5 @@ Sabzi Mandi is an innovative online vegetable sales web application designed to 
 * Build this project and run it.
 * Stop any application running on port 8080.
 * Open any browser and type "http://localhost:8080/" and hit enter.
-* Login page will open, use the credentials provided in Project->Credentials.txt or do new user registration.
+* Login page will open, do new user registration.
 * Login using your credentials and the web application will open.

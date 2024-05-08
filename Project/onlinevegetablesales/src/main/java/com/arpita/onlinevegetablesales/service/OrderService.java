@@ -47,7 +47,6 @@ public class OrderService {
             order.setDeliveryCharge(60);
         }
         orderDao.save(order);
-        address.setOrder(order);
         addressDao.save(address);
         for(CartItemDto cartItem : cartDto.getCartItems()){
             OrderItem orderItem = new OrderItem();

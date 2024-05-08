@@ -31,7 +31,4 @@ public class Address {
     private String zipCode;
     @Column(name="phone_number")
     private String phoneNumber;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "order_id", referencedColumnName = "id")
-    private Order order;
 }

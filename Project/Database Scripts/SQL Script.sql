@@ -84,17 +84,17 @@ CREATE TABLE `vegetable` (
 INSERT INTO `online-vegetable-sales`.`vegetable`(`sku`,`name`,`description`,`unit_price`,`image_url`,`active`,`units_in_stock`,`category_id`)
 VALUES
 ("RT01","Potato","Potato, annual plant in the nightshade family, grown for its starchy edible tubers.",34,"/img/vegetable/root/potato.jpg",1,50,4),
-("RT02","Onion","An onion also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium.",80,"/img/vegetable/root/onion.jpg",1,100,4),
-("AL01","Garlic","Garlic is a well-known herb that is used as a spice or condiment in many cuisines, including Asian, African, European, and Mediterranean. It contains enzymes, vitamin B, flavonoids, minerals, antioxidants, and protein.",155,"/img/vegetable/allium/garlic.jpg",1,120,6),
-("AL02","Leek","Leeks are a good source of fiber, including prebiotics that help feed the good bacteria in the gut. Leeks are also a good source of allicin, a compound that may help prevent the spread of cancer cells.",200,"/img/vegetable/allium/leek.jpg",1,50,6),
-("CR01","Radish","Radishes are eaten all over the world, usually raw in salads, but can also be cooked as vegetables. They have anti-cancer, anti-diabetic, anti-hypertensive, and anti-obesity effects.",30,"/img/vegetable/cruciferous/radish.jpg",1,200,2),
-("CR02","Turnip","Turnips can be consumed raw or cooked in a variety of ways, including: Roasts, Stews, Soups, Casseroles, Boiled, Sliced in salads, Pickled, and Mashed.Turnips are a good source of vitamin C, folate, iron, and calcium.",55,"/img/vegetable/cruciferous/turnip.jpg",1,20,2),
-("ES01","Bamboo Shoot","Bamboo shoots are the edible shoots of bamboo plants that are new culms that emerge from the ground.Bamboo shoots are rich contents of proteins, carbohydrates, vitamins, fibers, and minerals and very low fat.",200,"/img/vegetable/edible plant stem/bamboo shoot.jpg",1,10,5),
-("ES02","Carrot","Carrots are high in fiber, vitamin A, vitamin C, and vitamin K, and contain antioxidants and nutrients that promote healthy skin and fight disease. Carrots can be used in salads, relishes, stews, soups, and cooked vegetables.",50,"/img/vegetable/edible plant stem/carrot.jpg",1,80,5),
-("LG01","Cabbage","Cabbages are rich in vitamin C, fiber, and vitamin K. They may help with heart and digestive health.",50,"/img/vegetable/leafy green/cabbage.jpg",1,35,1),
-("LG02","Spinach","Spinach is a rich source of vitamins A and C, as well as iron, magnesium, potassium, and calcium. It can be eaten fresh or processed, and is often served as a salad green or cooked in soups, soufflés, mousses, and other dishes.",90,"/img/vegetable/leafy green/spinach.jpg",1,40,1),
-("MW01","Cucumber","Cucumbers are long, green, cylindrical fruits with a hard, warty skin and wet, transparent flesh that are usually eaten raw in salads or sandwiches. They are also used as cooked vegetables or preserved as pickles or marinated. ",40,"/img/vegetable/marrow/cucumber.jpg",1,70,3),
-("MW02","Zucchini","Zucchini is rich in water and fiber, which can help with digestion and reduce the risk of constipation. It may also help lower blood sugar levels in people with type 2 diabetes.",100,"/img/vegetable/marrow/zucchini.jpg",1,15,3);
+("RT02","Onion","An onion also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium.",80,"/img/vegetables/root/onion.jpg",1,100,4),
+("AL01","Garlic","Garlic is a well-known herb that is used as a spice or condiment in many cuisines, including Asian, African, European, and Mediterranean. It contains enzymes, vitamin B, flavonoids, minerals, antioxidants, and protein.",155,"/img/vegetables/allium/garlic.jpg",1,120,6),
+("AL02","Leek","Leeks are a good source of fiber, including prebiotics that help feed the good bacteria in the gut. Leeks are also a good source of allicin, a compound that may help prevent the spread of cancer cells.",200,"/img/vegetables/allium/leek.jpg",1,50,6),
+("CR01","Radish","Radishes are eaten all over the world, usually raw in salads, but can also be cooked as vegetables. They have anti-cancer, anti-diabetic, anti-hypertensive, and anti-obesity effects.",30,"/img/vegetables/cruciferous/radish.jpg",1,200,2),
+("CR02","Turnip","Turnips can be consumed raw or cooked in a variety of ways, including: Roasts, Stews, Soups, Casseroles, Boiled, Sliced in salads, Pickled, and Mashed.Turnips are a good source of vitamin C, folate, iron, and calcium.",55,"/img/vegetables/cruciferous/turnip.jpg",1,20,2),
+("ES01","Bamboo Shoot","Bamboo shoots are the edible shoots of bamboo plants that are new culms that emerge from the ground.Bamboo shoots are rich contents of proteins, carbohydrates, vitamins, fibers, and minerals and very low fat.",200,"/img/vegetables/ediblePlantStem/bambooShoot.jpg",1,10,5),
+("ES02","Carrot","Carrots are high in fiber, vitamin A, vitamin C, and vitamin K, and contain antioxidants and nutrients that promote healthy skin and fight disease. Carrots can be used in salads, relishes, stews, soups, and cooked vegetables.",50,"/img/vegetables/ediblePlantStem/carrot.jpg",1,80,5),
+("LG01","Cabbage","Cabbages are rich in vitamin C, fiber, and vitamin K. They may help with heart and digestive health.",50,"/img/vegetables/leafyGreen/cabbage.jpg",1,35,1),
+("LG02","Spinach","Spinach is a rich source of vitamins A and C, as well as iron, magnesium, potassium, and calcium. It can be eaten fresh or processed, and is often served as a salad green or cooked in soups, soufflés, mousses, and other dishes.",90,"/img/vegetables/leafyGreen/spinach.jpg",1,40,1),
+("MW01","Cucumber","Cucumbers are long, green, cylindrical fruits with a hard, warty skin and wet, transparent flesh that are usually eaten raw in salads or sandwiches. They are also used as cooked vegetables or preserved as pickles or marinated. ",40,"/img/vegetables/marrow/cucumber.jpg",1,70,3),
+("MW02","Zucchini","Zucchini is rich in water and fiber, which can help with digestion and reduce the risk of constipation. It may also help lower blood sugar levels in people with type 2 diabetes.",100,"/img/vegetables/marrow/zucchini.jpg",1,15,3);
 
 CREATE TABLE `cart` (
   `id` bigint NOT NULL AUTO_INCREMENT,
@@ -117,10 +117,10 @@ CREATE TABLE `address` (
   `zip_code` varchar(255) DEFAULT NULL,
   `phone_number` varchar(255) DEFAULT NULL,
   `full_name` varchar(255) DEFAULT NULL,
-  `order_id` bigint DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_address_order_id` (`order_id`),
-  CONSTRAINT `FK_address_order_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)
+  -- `order_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`id`)
+  -- KEY `FK_address_order_id` (`order_id`),
+--   CONSTRAINT `FK_address_order_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `orders` (
